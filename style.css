@@ -31,6 +31,7 @@ header nav ul {
     background-color: none;
     outline: none;
     border: none;
+    z-index: 2;
 }
 
 .hamburger .bar, .hamburger:after, .hamburger:before {
@@ -66,6 +67,7 @@ header nav ul {
     background-color: #FFE3F6;
     padding-top: 120px;
     transition: 0.4s;
+    z-index: 1;
 }
 
 .mobile-nav.is-active {
